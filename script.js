@@ -1,4 +1,5 @@
 /* myfunction() */
 function myFunction() {
-    alert("Wow!");
+    var x = document.getElementById("input").value;
+    alert("Generating "+x);
   }
