@@ -1,1 +1,4 @@
-alert("Wow!");
+/* myfunction() */
+function myFunction() {
+    alert("Wow!");
+  }
