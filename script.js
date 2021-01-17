@@ -1,9 +1,10 @@
-/* myfunction() */
-function myFunction()
+/* formSubmit() */
+function formSubmit()
 {
     let userInput = document.getElementById("input").value;
     console.log("Suggesting... "+userInput);
     generateSuggestions(userInput);
+    return false;
 }
 
 /* generateSuggestions() */
