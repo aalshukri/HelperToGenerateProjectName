@@ -28,4 +28,16 @@ function generateSuggestions(userInput)
 
     let arr = doc.json().map(o=> o.text)
     console.log(arr);
-}  
+
+    let yourNewWord = arr[0];
+
+    console.log(yourNewWord);
+
+    addSuggestion(yourNewWord);
+}
+
+/* addSuggestion() */
+function addSuggestion(suggestedWord)
+{
+    document.getElementById('suggestions').innerHTML += '<li>' + suggestedWord + '</li>';
+}
